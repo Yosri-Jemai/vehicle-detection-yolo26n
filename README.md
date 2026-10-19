@@ -9,6 +9,42 @@ The model is based on YOLO26n, a lightweight object detection architecture desig
 
 It was fine-tuned from pretrained weights using a vehicle dataset containing six classes. Although the primary objective is to detect one vehicle in an image, the model can also detect multiple vehicles when they are present.
 
+
+## Dataset
+
+This project uses the [Vehicle Dataset for YOLO](https://www.kaggle.com/datasets/nadinpethiyagoda/vehicle-dataset-for-yolo), published by Nadin Pethiyagoda on Kaggle.
+
+The dataset contains vehicle images annotated with bounding boxes in YOLO format for object detection. It includes six vehicle categories.
+
+### Dataset Splits Used
+
+| Split | Images |
+|---|---:|
+| Training | 2,100 |
+| Validation | 450 |
+| Testing | 450 |
+| **Total used** | **3,000** |
+
+The training split was used to fine-tune YOLO26n, the validation split to monitor model performance, and the test split to evaluate the trained model on separate images.
+
+### Classes
+
+- Car
+- Tuk-tuk (three-wheel vehicle)
+- Bus
+- Truck
+- Motorcycle
+- Minivan
+
+### Dataset Source
+
+- **Creator:** Nadin Pethiyagoda
+- **Platform:** Kaggle
+- **Link:** [Vehicle Dataset for YOLO](https://www.kaggle.com/datasets/nadinpethiyagoda/vehicle-dataset-for-yolo)
+
+The dataset is used for educational and object detection experimentation. Please refer to the original dataset page for its licensing terms and usage conditions.
+
+
 ## Vehicle Classes
 
 The model detects the following categories:
