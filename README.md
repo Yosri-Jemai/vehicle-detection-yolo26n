@@ -189,5 +189,5 @@ The Jupyter notebook contains the training, evaluation, and inference workflow.
 
 **Yosri Jemai**
 
-- GitHub: [Yosri-Jemai](https://github.com/Yosri-Jemai/vehicle-detection-yolo26)
+- GitHub: [Yosri-Jemai](https://github.com/Yosri-Jemai/vehicle-detection-yolo26n)
 - Hugging Face: [Yosriii](https://huggingface.co/Yosriii/vehicle-detection-yolo26n)
